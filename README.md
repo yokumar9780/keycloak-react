@@ -35,4 +35,5 @@ Your app is ready to be deployed!
 ## References
 
 https://www.keycloak.org/getting-started/getting-started-docker
+
 https://scalac.io/user-authentication-keycloak-1/
