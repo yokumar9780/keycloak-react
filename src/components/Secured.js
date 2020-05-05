@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Keycloak from "keycloak-js";
 import UserInfo from "./UserInfo";
+import UserProfile from "./UserProfile";
 import Logout from "./Logout";
 
 function Secured(props) {
@@ -59,6 +60,8 @@ function Secured(props) {
           <p> {keycloak.token} </p>
           <p> {keycloak.refreshToken} </p>
           <UserInfo keycloak={keycloak} />
+          <UserProfile keycloak={keycloak} />
+
           <Logout keycloak={keycloak} />
         </div>
       );
